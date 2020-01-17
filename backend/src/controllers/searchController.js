@@ -7,7 +7,7 @@ module.exports = {
 
         const techsArray = parseStringAsArray(techs);
 
-        console.log(techsArray);
+        //console.log(techsArray);
 
         const devs = await Dev.find({
             techs: {
